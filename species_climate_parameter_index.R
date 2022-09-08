@@ -42,8 +42,8 @@ climate_parameter_index = function(
   
   # Each grid cell is identified by the x and y of the bottom left corner
   # Create 250x250 grid cells
-  cell250x = seq(from = -180, to = 180, by = 2.5)
-  cell250y = seq(from = -90, to = 90, by = 2.5)
+  cell250x = seq(from = floor((min(decimalLongitude) / 2.5)) * 2.5, to = ceiling((max(decimalLongitude) / 2.5)) * 2.5, by = 2.5)
+  cell250y = seq(from = floor((min(decimalLatitude) / 2.5)) * 2.5, to = ceiling((max(decimalLatitude) / 2.5)) * 2.5, by = 2.5)
   cell250 = expand.grid(x = cell250x, y = cell250y)
   # Assign each observation to a 50x50km grid cell
   x50 = floor(decimalLongitude[!duplications] / 0.5) * 0.5
