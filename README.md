@@ -6,6 +6,6 @@ Run gbif_climate_parameter_index() with the GBIF taxonKeys and 43200x21600 raste
 
 See 
 
-> Sparrius, L. B., van den Top, G. G., & van Swaay, C. A. M. (2018). An approach to calculate a species temperature index for flora based on open data. Gorteria Dutch Botanical Archives, 40(1), 73-78. <
+> Sparrius, L. B., van den Top, G. G., & van Swaay, C. A. M. (2018). An approach to calculate a species temperature index for flora based on open data. Gorteria Dutch Botanical Archives, 40(1), 73-78.
 
 for an explanation of the method.
